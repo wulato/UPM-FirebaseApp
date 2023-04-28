@@ -33,7 +33,7 @@ jobs:
       - name: Commit
         run: |
           git add --a
-          git commit -m "Firebase SDk-v${{ env.version }}"
+          git commit -m "Firebase SDK-v${{ env.version }}"
           git push origin
       
       - name: Cook UPM
